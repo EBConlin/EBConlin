@@ -74,10 +74,5 @@ Current work explores methods for **distilling large models into smaller special
 
 ## Interests
 
-AI for science
-healthcare AI
-scientific reasoning systems
-agent architectures
-tool ecosystems
-mechanistic modeling
+Agentic workflows for healthcare and science, Artificial Life, Integration and update of older ML patterns (RFs, SVMs, Logic, Genetic Algorithms) into newer possibilities. 
 
