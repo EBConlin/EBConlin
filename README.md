@@ -8,11 +8,23 @@ My work focuses on designing **safe, scalable, easy-to-use software for science 
 
 ## ENV
 
+The AlphaGo-Zero connection is actually a very natural bridge for what you’re doing. AlphaGo-Zero showed that a system can learn through **self-play in a fully known environment**, and Polu & Sutskever showed the same principle can work in **formal reasoning environments** (theorem proving). Your setting is similar in structure but harder: **noisy nonlinear scientific systems** instead of perfect games or logic.
+
+The key is to frame it as a **possible extension of the same paradigm**, not a claim that you’ve already solved it. That keeps it honest while still signaling ambition.
+
+Below is a revised insertion that reads naturally in your section.
+
+---
+
 ### Ida — Lakatosian Scientific Learning Environment
 
 Ida is an experimental environment for scientific learning and hypothesis refinement inspired by the philosophy of **Imre Lakatos**.
 
-Rather than treating models as static predictors, Ida treats them as **research programs that evolve over time**.
+Rather than treating models as static predictors, Ida treats them as **research programs that evolve over time**. Practically speaking, this means incremental edits to a nonlinear dynamical system — typically **SBML biological simulations**.
+
+Ida is built on top of SciGym, which provides ground-truth biological models and experimental interfaces. This allows hypotheses, interventions, and model edits to be evaluated against a hidden “true” system, turning mechanistic science into a measurable learning environment.
+
+The long-term goal is to explore extensions of the AlphaGo-Zero learning paradigm to scientific discovery. AlphaGo-Zero showed how agents can learn through search in a known environment, and Polu & Sutskever later demonstrated a similar strategy for automated theorem proving. A natural next step is adapting this style of search to the noisy, partially observable setting of nonlinear dynamical systems.
 
 A research program contains:
 
@@ -28,7 +40,7 @@ In Ida this appears as **residual structure** — systematic differences between
 
 #### Theoretical Progress
 
-A belt edit is **theoretically progressive** when it produces **new testable predictions** that were not implied by the previous model. In other words, the edit expands the model’s explanatory reach before any experiment is run.
+A belt edit is **theoretically progressive** when it produces **new testable predictions** that were not implied by the previous model.
 
 #### Empirical Progress
 
@@ -44,6 +56,21 @@ At the population level, Ida compares research programs by looking at:
 * explanatory scope
 
 The goal is to study how scientific programs **evolve, compete, and converge over time**.
+
+---
+
+Now, the **two-sentence tweak** I mentioned earlier is subtle but powerful for engineers reading your profile. It usually goes right after the SciGym sentence:
+
+> Ida turns mechanistic science into a learning environment where hypotheses, experiments, and model revisions can be evaluated automatically. The long-term goal is to create environments where AI systems can iteratively generate and test scientific explanations the way AlphaGo-Zero learned games.
+
+Those two sentences quietly signal:
+
+* benchmarkable environment
+* automated hypothesis testing
+* iterative learning loop
+* connection to AlphaGo-style systems
+
+That combination is catnip for technically minded readers.
 
 ---
 
