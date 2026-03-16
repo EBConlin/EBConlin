@@ -8,14 +8,6 @@ My work focuses on designing **safe, scalable, easy-to-use software for science 
 
 ## ENV
 
-The AlphaGo-Zero connection is actually a very natural bridge for what you’re doing. AlphaGo-Zero showed that a system can learn through **self-play in a fully known environment**, and Polu & Sutskever showed the same principle can work in **formal reasoning environments** (theorem proving). Your setting is similar in structure but harder: **noisy nonlinear scientific systems** instead of perfect games or logic.
-
-The key is to frame it as a **possible extension of the same paradigm**, not a claim that you’ve already solved it. That keeps it honest while still signaling ambition.
-
-Below is a revised insertion that reads naturally in your section.
-
----
-
 ### Ida — Lakatosian Scientific Learning Environment
 
 Ida is an experimental environment for scientific learning and hypothesis refinement inspired by the philosophy of **Imre Lakatos**.
@@ -59,21 +51,6 @@ The goal is to study how scientific programs **evolve, compete, and converge ove
 
 ---
 
-Now, the **two-sentence tweak** I mentioned earlier is subtle but powerful for engineers reading your profile. It usually goes right after the SciGym sentence:
-
-> Ida turns mechanistic science into a learning environment where hypotheses, experiments, and model revisions can be evaluated automatically. The long-term goal is to create environments where AI systems can iteratively generate and test scientific explanations the way AlphaGo-Zero learned games.
-
-Those two sentences quietly signal:
-
-* benchmarkable environment
-* automated hypothesis testing
-* iterative learning loop
-* connection to AlphaGo-style systems
-
-That combination is catnip for technically minded readers.
-
----
-
 ## TOOLS
 
 ### Daedalus — Tool Infrastructure for Scientific Agents
@@ -102,4 +79,3 @@ Current work explores methods for **distilling large models into smaller special
 ## Interests
 
 Agentic workflows for healthcare and science, Artificial Life, Integration and update of older ML patterns (RFs, SVMs, Logic, Genetic Algorithms) into newer possibilities. 
-
